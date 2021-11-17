@@ -6,8 +6,10 @@ import * as Location from 'expo-location';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import HomeScreen from './HomeScreen';
-import WeatherScreen from './WeatherScreen';
+
+
+import HomeScreen from './app/screens/HomeScreen';
+import WeatherScreen from './app/screens/WeatherScreen';
 
 const Stack = createNativeStackNavigator();
 

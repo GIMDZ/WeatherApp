@@ -7,7 +7,7 @@ import DateTime from '../../components/DateTime';
 import WeatherScroll from '../../components/WeatherScroll';
 
 const API_KEY ='21c470e700fa843132199959e3bb71cd';
-const img = require('./assets/img.jpg')
+const img = require('../assets/img.jpg')
 
 export default function WeatherScreen({ navigation }) {
   const [data,setData] = useState({});
