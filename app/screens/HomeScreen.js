@@ -5,6 +5,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 // import * as Location from 'expo-location';
 
+import CitiesList from '../../components/CitiesList';
 
 export default function HomeScreen({ navigation }) {
 
@@ -12,6 +13,7 @@ export default function HomeScreen({ navigation }) {
   return (
     <View style={styles.container}>
       <StatusBar style="auto" />
+      <CitiesList/>
       <Text>Welcome to your Weather App!</Text>
       <Button
           // title="Add some cities"
@@ -32,3 +34,5 @@ const styles = StyleSheet.create({
   },
   
 });
+
+
